@@ -1,7 +1,16 @@
-from datetime import datetime, timezone, timedelta
+from datetime import (
+    datetime,
+    timezone,
+    timedelta
+)
 import pytest
 
-from main import app, calculate_timezone_offset, is_valid_timezone_format, datetime_to_requested_string_format
+from main import (
+    app,
+    calculate_timezone_offset,
+    is_valid_timezone_format,
+    datetime_to_requested_string_format
+)
 
 
 @pytest.fixture()
